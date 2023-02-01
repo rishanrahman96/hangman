@@ -31,9 +31,6 @@ class Hangman:
             print(f"You have {self.num_lives} lives left")
             if self.num_lives == 0:
                 print("You lost")
-        
-
-
 
 
     def ask_for_input(self):
